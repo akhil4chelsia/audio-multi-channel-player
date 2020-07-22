@@ -6,8 +6,9 @@ pip install -r requirements.txt
 Check connected audio devices
 open python console 
 
-  import sounddevice as sd \n
-  ds.query_devices()
+import sounddevice as sd
+
+sd.query_devices()
 
 modify device numbers in player.py
 
