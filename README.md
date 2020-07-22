@@ -5,6 +5,7 @@ pip install -r requirements.txt
 
 Check connected audio devices
 open python console 
+
   import sounddevice as sd
   ds.query_devices()
 
